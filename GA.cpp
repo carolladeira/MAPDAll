@@ -871,7 +871,7 @@ void GA::correlacao(int tipo, int obj) {
     }
 
     string res_file =
-            "/home/carol/Desktop/MAPD/correlacao/corr-"+nome+"-1000-" + to_string(sizeAgents) + "-" + to_string(timestep) + ".csv";
+            "/home/carolina/MAPDAll/correlacao/corr-"+nome+"-1000-" + to_string(sizeAgents) + "-" + to_string(timestep) + ".csv";
     ofstream fout(res_file, ios::app);
     if (!fout) cout << "ERR0 - salvar aquivo correlacao"<<endl;
     for (int i = 0; i < pop.size(); i++) {
@@ -1359,7 +1359,7 @@ GA::run_GA(vector<Agent> agents, vector<Task *> taskset, vector<Task> task_total
     start = std::clock();
 
     int id = 0;
-  //  correlacao(tipo, obj);
+    correlacao(tipo, obj);
 
 
     if (tipo == 0) {
