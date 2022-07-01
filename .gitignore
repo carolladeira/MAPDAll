@@ -1,0 +1,8 @@
+cmake-build-debug/
+.idea
+boost_1_74_0/
+dlib/
+endpoint/
+include/
+Instances/
+
