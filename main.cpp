@@ -46,7 +46,7 @@ int run(const string& ag, string fr,  int seed, string problem, int bestInd, int
     string map_file = " ";
     string task_file = " ";
     string res_file = " ";
-    string p = "/Users/anacarolina/Desktop/newMapd/newMapd";
+    string p = "/home/carolina/MAPDAll";
     if(stoi(ag)> 50){
       cout << "LARGE ===" << endl;
       map_file = p + "/Instances/large/kiva-" + ag + "-1000-50.map";     //LARGE
@@ -123,10 +123,10 @@ int main(int argc, char *argv[]) {
 //        -> 1 st
 //        -> 2 to origem
 
-  run("100", "1000", 1, "AS_HOLD", 1, 4, 2);
+  //run("100", "1000", 1, "AS_HOLD", 1, 4, 2);
 
   // agente frequencia semente, problema, melhorInd tipo_GA objetivo
-   /// run( argv[1], argv[2], atoi(argv[3]), argv[4], atoi(argv[5]), atoi(argv[6]), atoi(argv[7]));
+   run( argv[1], argv[2], atoi(argv[3]), argv[4], atoi(argv[5]), atoi(argv[6]), atoi(argv[7]));
 
    return 0;
 }
