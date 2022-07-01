@@ -1,6 +1,6 @@
 CC=g++
 
-override CFLAGS+=-DIL_STD -c -Wall -O3 --std=c++11 -I/Users/anacarolina/Desktop/newMapd/newMAPD/include -I/Users/anacarolina/Desktop/newMapd/newMAPD/boost_1_79_0 -L/Users/anacarolina/Desktop/newMapd/newMAPD/boost_1_79_0/stage/lib
+override CFLAGS+=-DIL_STD -c -Wall -O3 --std=c++11 -I/home/carolina/MAPDAll/include -I/home/carolina/MAPDAll/boost_1_79_0 -L/home/carolina/MAPDAll/boost_1_79_0/stage/lib
 
 override CFLAGSL+=
 override LDFLAGS+=-DIL_STD 
